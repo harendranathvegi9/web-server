@@ -15,6 +15,10 @@ app.get('/jagan',middleware.requireAuthentication,function(req,res){
 	res.send('Hello Nandy. Love you loads.');
 	});
 
+	app.get('/azi',middleware.requireAuthentication,function(req,res){
+	res.send('Hello Azz. Study. PLease..');
+	});
+
 	app.get('/manu',middleware.requireAuthentication,function(req,res){
 	res.send('Hello Manu. Love you loads.');
 
