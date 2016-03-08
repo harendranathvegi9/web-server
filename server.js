@@ -7,8 +7,8 @@ var middleware = require('./middleware.js');
 
 app.use(middleware.logger);
 
-app.get('/about',middleware.requireAuthentication,function(req,res){
-	res.send('About us: We are very cool! Hola');
+app.get('/jagan',middleware.requireAuthentication,function(req,res){
+	res.send('Hello Jagan. Stay Calm.!');
 
 });
 
